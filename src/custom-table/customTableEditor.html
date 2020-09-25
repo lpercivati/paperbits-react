@@ -1,0 +1,24 @@
+<fieldset class="form" data-bind="scrollable: true">
+    <p>Insert the URL</p>
+    <div class="form-group">
+        <label class="form-label">URL
+        <button class="btn btn-info" type="button" data-bind="tooltip: 'URL for the HTTP call'"></button>
+        </label>
+        <input type="text" class="form-control" data-bind="value: urlPath">
+    </div>
+
+    <div class="form-group">
+        <label class="form-label"> Authorization
+            <button class="btn btn-info" type="button" data-bind="tooltip: 'Insert authorization for the call'">
+            </button>
+        </label>
+        <input type="text" class="form-control" data-bind="value: authorization">
+    </div>
+
+    <div class="form-group">
+        <label class="form-label"> Color
+            <button class="btn btn-info" type="button" data-bind="tooltip: 'Insert styles to applt to the table in JSON format.'"></button>
+        </label>
+        <input type="button" class="form-control" data-bind="value: style"> 
+    </div>
+</fieldset>

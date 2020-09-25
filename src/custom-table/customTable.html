@@ -1,0 +1,7 @@
+<div>
+    <h2 class="not-configured" data-bind="ifnot: urlPath">Please insert URL</h2>
+
+    <custom-table-runtime
+        data-bind="attr: { urlPath: urlPath(), authorization: authorization(), style: style() } "
+    ></custom-table-runtime>
+</div>
